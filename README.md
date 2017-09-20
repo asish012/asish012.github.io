@@ -48,7 +48,7 @@
 ## Images
   ```
   Format:  ![Alt Text](url)
-  Example: ![GitHub Logo](/images/logo.png)
+  Example: ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
   ```
     
 ## Links
@@ -59,12 +59,32 @@
   Example:  [GitHub](http://github.com)
   ```
 
-## Blockquotes
+## BlockQuotes
   ```
   > We Become the Story We Tell Ourselves - Borendro Kobi
   ```
-    
+
 ## Inline code
   ```
   I think you should use an `unsigned int` instead `signed int`
+  ```
+
+## Code block
+- With indent:
+  ```
+  Simply indent your code block with four spaces.
+      if (something == true) {
+        do something
+      }
+  ```
+- Fencing (without indent):
+  ```
+  Fench all your code with two lines of three consequitive backticks (```), 
+  and you don't need to indent anymore.
+  ```
+  
+- Syntax highlighting
+  ```
+  In order to enable syntax highlighting add the language name with the opening line of backticks
+  ```javascript
   ```
